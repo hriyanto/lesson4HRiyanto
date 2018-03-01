@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Current Date and Time</title>
+    <style>
+        p {font: 14px normal arial, verdana, helvetica;}
+    </style>
+    <script>
+        function telltime() {
+            var now = new Date();
+            document.write(now)
+        }
+    </script>
+</head>
+<body>
+    The current date and time are:<br/>
+    <script>
+        telltime();
+    </script>
+    <input type="button" onclick="location.reload()" value="Refresh" />
+</body>
+</html>
